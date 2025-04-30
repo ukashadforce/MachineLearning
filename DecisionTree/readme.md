@@ -35,7 +35,7 @@
 
 	![](http://i.imgur.com/ronxb97.png)
 
-
+	    print  clf.predict(X)   #['yes' 'yes' 'no' 'no' 'no']
 - 存在的问题
 
 	(1) 如果测试集中某个样本的某个特征的值在训练集中没出现，则会造成训练出来的树的某个分支，对该样本不能分类，出现KeyError：
